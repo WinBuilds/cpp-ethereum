@@ -53,6 +53,7 @@ public:
 
 protected:
     unsigned m_blocksToMine;
+    unsigned const m_singleBlockMaxMiningTimeInSeconds = 5;
     virtual void onNewBlocks(h256s const& _blocks, h256Hash& io_changed) override;
 };
 

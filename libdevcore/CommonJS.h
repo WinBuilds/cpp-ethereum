@@ -44,6 +44,11 @@ template <unsigned N> std::string toJS(boost::multiprecision::number<boost::mult
 	return "0x" + res;
 }
 
+inline std::string toJS(byte _b)
+{
+    return "0x" + std::to_string(_b);
+}
+
 inline std::string toJS(bytes const& _n, std::size_t _padding = 0)
 {
 	bytes n = _n;
