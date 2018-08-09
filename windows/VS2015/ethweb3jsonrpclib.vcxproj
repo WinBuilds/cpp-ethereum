@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\libweb3jsonrpc\AccountHolder.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\AdminEth.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\AdminNet.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\Debug.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\Eth.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\IpcServerBase.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\JsonHelper.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\Net.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\Personal.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\SessionManager.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\Test.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\Web3.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\WinPipeServer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\libweb3jsonrpc\AccountHolder.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\AdminEth.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\AdminEthFace.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\AdminNet.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\AdminNetFace.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\Debug.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\DebugFace.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\Eth.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\EthFace.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\IpcServer.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\IpcServerBase.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\JsonHelper.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\ModularServer.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\Net.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\NetFace.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\Personal.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\PersonalFace.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\SessionManager.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\Test.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\TestFace.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\Web3.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\Web3Face.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\WhisperFace.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\WinPipeServer.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4AB96E2F-E4F4-4782-8725-DEBDA7167B1B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ethweb3jsonrpclib</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/lib/</OutDir>
+    <IntDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/lib/</OutDir>
+    <IntDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+    <OutDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/lib/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IntDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+    <OutDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/lib/</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_WIN32_WINNT=0x0600;NOMINMAX;MINIUPNP_STATICLIB;ETH_FATDB;BOOST_ALL_NO_LIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT);$(SolutionDir);$(SolutionDir)..\..;$(SolutionDir)..\..\ethash\include;$(SolutionDir)..\..\evmc\include;$(SolutionDir)..\..\utils;$(OutDir)..\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4068;4996;4503;4267;4180;4290;4297;4244;4800</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;_WIN32_WINNT=0x0600;NOMINMAX;MINIUPNP_STATICLIB;ETH_FATDB;BOOST_ALL_NO_LIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT);$(SolutionDir);$(SolutionDir)..\..;$(SolutionDir)..\..\ethash\include;$(SolutionDir)..\..\evmc\include;$(SolutionDir)..\..\utils;$(OutDir)..\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4068;4996;4503;4267;4180;4290;4297;4244;4800</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_WIN32_WINNT=0x0600;NOMINMAX;MINIUPNP_STATICLIB;ETH_FATDB;BOOST_ALL_NO_LIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT);$(SolutionDir);$(SolutionDir)..\..;$(SolutionDir)..\..\ethash\include;$(SolutionDir)..\..\evmc\include;$(SolutionDir)..\..\utils;$(OutDir)..\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4068;4996;4503;4267;4180;4290;4297;4244;4800</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;_WIN32_WINNT=0x0600;NOMINMAX;MINIUPNP_STATICLIB;ETH_FATDB;BOOST_ALL_NO_LIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT);$(SolutionDir);$(SolutionDir)..\..;$(SolutionDir)..\..\ethash\include;$(SolutionDir)..\..\evmc\include;$(SolutionDir)..\..\utils;$(OutDir)..\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4068;4996;4503;4267;4180;4290;4297;4244;4800</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

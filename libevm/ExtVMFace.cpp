@@ -149,6 +149,7 @@ void getBlockHash(evmc_uint256be* o_hash, evmc_context* _envPtr, int64_t _number
 	*o_hash = toEvmC(env.blockHash(_number));
 }
 
+
 void create(evmc_result* o_result, ExtVMFace& _env, evmc_message const* _msg) noexcept
 {
 	u256 gas = _msg->gas;
@@ -180,7 +181,11 @@ void create(evmc_result* o_result, ExtVMFace& _env, evmc_message const* _msg) no
 
 		// Place a new vector of bytes containing output in result's reserved memory.
 		auto* data = evmc_get_optional_data(o_result);
+
+      constexpr size_t sizeOfbytes = sizeof(bytes);
+      constexpr size_t sizeOfdata = sizeof(*data);     
 		static_assert(sizeof(bytes) <= sizeof(*data), "Vector is too big");
+
 		new(data) bytes(result.output.takeBytes());
 		// Set the destructor to delete the vector.
 		o_result->release = [](evmc_result const* _result)
@@ -230,7 +235,9 @@ void call(evmc_result* o_result, evmc_context* _context, evmc_message const* _ms
 
 	// Place a new vector of bytes containing output in result's reserved memory.
 	auto* data = evmc_get_optional_data(o_result);
+
 	static_assert(sizeof(bytes) <= sizeof(*data), "Vector is too big");
+
 	new(data) bytes(result.output.takeBytes());
 	// Set the destructor to delete the vector.
 	o_result->release = [](evmc_result const* _result)

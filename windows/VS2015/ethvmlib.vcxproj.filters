@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\libevm\EVMC.cpp" />
+    <ClCompile Include="..\..\libevm\ExtVMFace.cpp" />
+    <ClCompile Include="..\..\libevm\Instruction.cpp" />
+    <ClCompile Include="..\..\libevm\LegacyVM.cpp" />
+    <ClCompile Include="..\..\libevm\LegacyVMCalls.cpp" />
+    <ClCompile Include="..\..\libevm\LegacyVMOpt.cpp" />
+    <ClCompile Include="..\..\libevm\VMFactory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\libevm\EVMC.h" />
+    <ClInclude Include="..\..\libevm\ExtVMFace.h" />
+    <ClInclude Include="..\..\libevm\Instruction.h" />
+    <ClInclude Include="..\..\libevm\LegacyVM.h" />
+    <ClInclude Include="..\..\libevm\LegacyVMConfig.h" />
+    <ClInclude Include="..\..\libevm\VMFace.h" />
+    <ClInclude Include="..\..\libevm\VMFactory.h" />
+  </ItemGroup>
+</Project>

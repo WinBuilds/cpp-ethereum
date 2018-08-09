@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\libethashseal\Ethash.cpp" />
+    <ClCompile Include="..\..\libethashseal\EthashClient.cpp" />
+    <ClCompile Include="..\..\libethashseal\EthashCPUMiner.cpp" />
+    <ClCompile Include="..\..\libethashseal\EthashProofOfWork.cpp" />
+    <ClCompile Include="..\..\libethashseal\GenesisInfo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\libethashseal\Ethash.h" />
+    <ClInclude Include="..\..\libethashseal\EthashClient.h" />
+    <ClInclude Include="..\..\libethashseal\EthashCPUMiner.h" />
+    <ClInclude Include="..\..\libethashseal\EthashProofOfWork.h" />
+    <ClInclude Include="..\..\libethashseal\GenesisInfo.h" />
+  </ItemGroup>
+</Project>

@@ -22,7 +22,7 @@
 #pragma once
 
 #include <string>
-#include <json/json.h>
+#include <jsoncpp/json.h>
 #include <libdevcore/Log.h>
 
 #include <boost/filesystem.hpp>

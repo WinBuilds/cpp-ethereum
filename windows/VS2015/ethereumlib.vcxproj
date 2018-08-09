@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\libethereum\Account.cpp" />
+    <ClCompile Include="..\..\libethereum\BasicGasPricer.cpp" />
+    <ClCompile Include="..\..\libethereum\Block.cpp" />
+    <ClCompile Include="..\..\libethereum\BlockChain.cpp" />
+    <ClCompile Include="..\..\libethereum\BlockChainImporter.cpp" />
+    <ClCompile Include="..\..\libethereum\BlockChainSync.cpp" />
+    <ClCompile Include="..\..\libethereum\BlockDetails.cpp" />
+    <ClCompile Include="..\..\libethereum\BlockQueue.cpp" />
+    <ClCompile Include="..\..\libethereum\ChainParams.cpp" />
+    <ClCompile Include="..\..\libethereum\Client.cpp" />
+    <ClCompile Include="..\..\libethereum\ClientBase.cpp" />
+    <ClCompile Include="..\..\libethereum\ClientTest.cpp" />
+    <ClCompile Include="..\..\libethereum\CommonNet.cpp" />
+    <ClCompile Include="..\..\libethereum\Defaults.cpp" />
+    <ClCompile Include="..\..\libethereum\EthereumHost.cpp" />
+    <ClCompile Include="..\..\libethereum\EthereumPeer.cpp" />
+    <ClCompile Include="..\..\libethereum\Executive.cpp" />
+    <ClCompile Include="..\..\libethereum\ExtVM.cpp" />
+    <ClCompile Include="..\..\libethereum\GenesisInfo.cpp" />
+    <ClCompile Include="..\..\libethereum\ImportPerformanceLogger.cpp" />
+    <ClCompile Include="..\..\libethereum\Interface.cpp" />
+    <ClCompile Include="..\..\libethereum\LogFilter.cpp" />
+    <ClCompile Include="..\..\libethereum\SnapshotImporter.cpp" />
+    <ClCompile Include="..\..\libethereum\SnapshotStorage.cpp" />
+    <ClCompile Include="..\..\libethereum\State.cpp" />
+    <ClCompile Include="..\..\libethereum\StateImporter.cpp" />
+    <ClCompile Include="..\..\libethereum\Transaction.cpp" />
+    <ClCompile Include="..\..\libethereum\TransactionQueue.cpp" />
+    <ClCompile Include="..\..\libethereum\TransactionReceipt.cpp" />
+    <ClCompile Include="..\..\libethereum\ValidationSchemes.cpp" />
+    <ClCompile Include="..\..\libethereum\WarpHostCapability.cpp" />
+    <ClCompile Include="..\..\libethereum\WarpPeerCapability.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\libethereum\Account.h" />
+    <ClInclude Include="..\..\libethereum\BasicGasPricer.h" />
+    <ClInclude Include="..\..\libethereum\Block.h" />
+    <ClInclude Include="..\..\libethereum\BlockChain.h" />
+    <ClInclude Include="..\..\libethereum\BlockChainImporter.h" />
+    <ClInclude Include="..\..\libethereum\BlockChainSync.h" />
+    <ClInclude Include="..\..\libethereum\BlockDetails.h" />
+    <ClInclude Include="..\..\libethereum\BlockQueue.h" />
+    <ClInclude Include="..\..\libethereum\ChainParams.h" />
+    <ClInclude Include="..\..\libethereum\Client.h" />
+    <ClInclude Include="..\..\libethereum\ClientBase.h" />
+    <ClInclude Include="..\..\libethereum\ClientTest.h" />
+    <ClInclude Include="..\..\libethereum\CodeSizeCache.h" />
+    <ClInclude Include="..\..\libethereum\CommonNet.h" />
+    <ClInclude Include="..\..\libethereum\Defaults.h" />
+    <ClInclude Include="..\..\libethereum\EthereumHost.h" />
+    <ClInclude Include="..\..\libethereum\EthereumPeer.h" />
+    <ClInclude Include="..\..\libethereum\Executive.h" />
+    <ClInclude Include="..\..\libethereum\ExtVM.h" />
+    <ClInclude Include="..\..\libethereum\GenericFarm.h" />
+    <ClInclude Include="..\..\libethereum\GenesisInfo.h" />
+    <ClInclude Include="..\..\libethereum\ImportPerformanceLogger.h" />
+    <ClInclude Include="..\..\libethereum\Interface.h" />
+    <ClInclude Include="..\..\libethereum\LastBlockHashesFace.h" />
+    <ClInclude Include="..\..\libethereum\LogFilter.h" />
+    <ClInclude Include="..\..\libethereum\SnapshotImporter.h" />
+    <ClInclude Include="..\..\libethereum\SnapshotStorage.h" />
+    <ClInclude Include="..\..\libethereum\State.h" />
+    <ClInclude Include="..\..\libethereum\StateImporter.h" />
+    <ClInclude Include="..\..\libethereum\Transaction.h" />
+    <ClInclude Include="..\..\libethereum\TransactionQueue.h" />
+    <ClInclude Include="..\..\libethereum\TransactionReceipt.h" />
+    <ClInclude Include="..\..\libethereum\ValidationSchemes.h" />
+    <ClInclude Include="..\..\libethereum\VerifiedBlock.h" />
+    <ClInclude Include="..\..\libethereum\WarpHostCapability.h" />
+    <ClInclude Include="..\..\libethereum\WarpPeerCapability.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{43FDB4C2-B44D-44F1-97E7-E1DE2B2C87B5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ethereumlib</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/lib/</OutDir>
+    <IntDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/lib/</OutDir>
+    <IntDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+    <OutDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/lib/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IntDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+    <OutDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/lib/</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0600;_DEBUG;_LIB;NOMINMAX;MINIUPNP_STATICLIB;ETH_FATDB;BOOST_ALL_NO_LIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT);$(SolutionDir);$(SolutionDir)..\..;$(SolutionDir)..\..\ethash\include;$(SolutionDir)..\..\evmc\include;$(SolutionDir)..\..\utils;$(OutDir)..\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4068;4996;4503;4267;4180;4290;4297;4244;4800;4316</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0600;_DEBUG;_LIB;NOMINMAX;MINIUPNP_STATICLIB;ETH_FATDB;BOOST_ALL_NO_LIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT);$(SolutionDir);$(SolutionDir)..\..;$(SolutionDir)..\..\ethash\include;$(SolutionDir)..\..\evmc\include;$(SolutionDir)..\..\utils;$(OutDir)..\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4068;4996;4503;4267;4180;4290;4297;4244;4800;4316</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WIN32_WINNT=0x0600;NDEBUG;_LIB;NOMINMAX;MINIUPNP_STATICLIB;ETH_FATDB;BOOST_ALL_NO_LIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT);$(SolutionDir);$(SolutionDir)..\..;$(SolutionDir)..\..\ethash\include;$(SolutionDir)..\..\evmc\include;$(SolutionDir)..\..\utils;$(OutDir)..\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4068;4996;4503;4267;4180;4290;4297;4244;4800;4316</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0600;NDEBUG;_LIB;NOMINMAX;MINIUPNP_STATICLIB;ETH_FATDB;BOOST_ALL_NO_LIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT);$(SolutionDir);$(SolutionDir)..\..;$(SolutionDir)..\..\ethash\include;$(SolutionDir)..\..\evmc\include;$(SolutionDir)..\..\utils;$(OutDir)..\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4068;4996;4503;4267;4180;4290;4297;4244;4800;4316</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

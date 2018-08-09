@@ -20,8 +20,8 @@
  */
 
 #include "Hash.h"
-#include <secp256k1_sha256.h>
-
+#include <secp256k1/secp256k1.h>
+#include <secp256k1/secp256k1_sha256.h>
 using namespace dev;
 
 namespace dev

@@ -24,7 +24,7 @@
 #include <libdevcore/TrieHash.h>
 #include <libethashseal/Ethash.h>
 
-#include <snappy.h>
+#include <snappy/snappy.h>
 
 namespace dev
 {

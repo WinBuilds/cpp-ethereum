@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\libp2p\All.h" />
+    <ClInclude Include="..\..\libp2p\Capability.h" />
+    <ClInclude Include="..\..\libp2p\Common.h" />
+    <ClInclude Include="..\..\libp2p\Host.h" />
+    <ClInclude Include="..\..\libp2p\HostCapability.h" />
+    <ClInclude Include="..\..\libp2p\Network.h" />
+    <ClInclude Include="..\..\libp2p\NodeTable.h" />
+    <ClInclude Include="..\..\libp2p\Peer.h" />
+    <ClInclude Include="..\..\libp2p\RLPXFrameCoder.h" />
+    <ClInclude Include="..\..\libp2p\RLPxHandshake.h" />
+    <ClInclude Include="..\..\libp2p\RLPXPacket.h" />
+    <ClInclude Include="..\..\libp2p\RLPXSocket.h" />
+    <ClInclude Include="..\..\libp2p\Session.h" />
+    <ClInclude Include="..\..\libp2p\UDP.h" />
+    <ClInclude Include="..\..\libp2p\UPnP.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\libp2p\Capability.cpp" />
+    <ClCompile Include="..\..\libp2p\Common.cpp" />
+    <ClCompile Include="..\..\libp2p\Host.cpp" />
+    <ClCompile Include="..\..\libp2p\Network.cpp" />
+    <ClCompile Include="..\..\libp2p\NodeTable.cpp" />
+    <ClCompile Include="..\..\libp2p\Peer.cpp" />
+    <ClCompile Include="..\..\libp2p\RLPXFrameCoder.cpp" />
+    <ClCompile Include="..\..\libp2p\RLPxHandshake.cpp" />
+    <ClCompile Include="..\..\libp2p\Session.cpp" />
+    <ClCompile Include="..\..\libp2p\UDP.cpp" />
+    <ClCompile Include="..\..\libp2p\UPnP.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\libp2p\CMakeLists.txt" />
+  </ItemGroup>
+</Project>

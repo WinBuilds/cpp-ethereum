@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\libethereum\Account.cpp" />
+    <ClCompile Include="..\..\libethereum\BasicGasPricer.cpp" />
+    <ClCompile Include="..\..\libethereum\Block.cpp" />
+    <ClCompile Include="..\..\libethereum\BlockChain.cpp" />
+    <ClCompile Include="..\..\libethereum\BlockChainImporter.cpp" />
+    <ClCompile Include="..\..\libethereum\BlockChainSync.cpp" />
+    <ClCompile Include="..\..\libethereum\BlockDetails.cpp" />
+    <ClCompile Include="..\..\libethereum\BlockQueue.cpp" />
+    <ClCompile Include="..\..\libethereum\ChainParams.cpp" />
+    <ClCompile Include="..\..\libethereum\Client.cpp" />
+    <ClCompile Include="..\..\libethereum\ClientBase.cpp" />
+    <ClCompile Include="..\..\libethereum\ClientTest.cpp" />
+    <ClCompile Include="..\..\libethereum\CommonNet.cpp" />
+    <ClCompile Include="..\..\libethereum\Defaults.cpp" />
+    <ClCompile Include="..\..\libethereum\EthereumHost.cpp" />
+    <ClCompile Include="..\..\libethereum\EthereumPeer.cpp" />
+    <ClCompile Include="..\..\libethereum\Executive.cpp" />
+    <ClCompile Include="..\..\libethereum\ExtVM.cpp" />
+    <ClCompile Include="..\..\libethereum\GenesisInfo.cpp" />
+    <ClCompile Include="..\..\libethereum\ImportPerformanceLogger.cpp" />
+    <ClCompile Include="..\..\libethereum\Interface.cpp" />
+    <ClCompile Include="..\..\libethereum\LogFilter.cpp" />
+    <ClCompile Include="..\..\libethereum\SnapshotImporter.cpp" />
+    <ClCompile Include="..\..\libethereum\SnapshotStorage.cpp" />
+    <ClCompile Include="..\..\libethereum\State.cpp" />
+    <ClCompile Include="..\..\libethereum\StateImporter.cpp" />
+    <ClCompile Include="..\..\libethereum\Transaction.cpp" />
+    <ClCompile Include="..\..\libethereum\TransactionQueue.cpp" />
+    <ClCompile Include="..\..\libethereum\TransactionReceipt.cpp" />
+    <ClCompile Include="..\..\libethereum\ValidationSchemes.cpp" />
+    <ClCompile Include="..\..\libethereum\WarpHostCapability.cpp" />
+    <ClCompile Include="..\..\libethereum\WarpPeerCapability.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\libethereum\Account.h" />
+    <ClInclude Include="..\..\libethereum\BasicGasPricer.h" />
+    <ClInclude Include="..\..\libethereum\Block.h" />
+    <ClInclude Include="..\..\libethereum\BlockChain.h" />
+    <ClInclude Include="..\..\libethereum\BlockChainImporter.h" />
+    <ClInclude Include="..\..\libethereum\BlockChainSync.h" />
+    <ClInclude Include="..\..\libethereum\BlockDetails.h" />
+    <ClInclude Include="..\..\libethereum\BlockQueue.h" />
+    <ClInclude Include="..\..\libethereum\ChainParams.h" />
+    <ClInclude Include="..\..\libethereum\Client.h" />
+    <ClInclude Include="..\..\libethereum\ClientBase.h" />
+    <ClInclude Include="..\..\libethereum\ClientTest.h" />
+    <ClInclude Include="..\..\libethereum\CodeSizeCache.h" />
+    <ClInclude Include="..\..\libethereum\CommonNet.h" />
+    <ClInclude Include="..\..\libethereum\Defaults.h" />
+    <ClInclude Include="..\..\libethereum\EthereumHost.h" />
+    <ClInclude Include="..\..\libethereum\EthereumPeer.h" />
+    <ClInclude Include="..\..\libethereum\Executive.h" />
+    <ClInclude Include="..\..\libethereum\ExtVM.h" />
+    <ClInclude Include="..\..\libethereum\GenericFarm.h" />
+    <ClInclude Include="..\..\libethereum\GenesisInfo.h" />
+    <ClInclude Include="..\..\libethereum\ImportPerformanceLogger.h" />
+    <ClInclude Include="..\..\libethereum\Interface.h" />
+    <ClInclude Include="..\..\libethereum\LastBlockHashesFace.h" />
+    <ClInclude Include="..\..\libethereum\LogFilter.h" />
+    <ClInclude Include="..\..\libethereum\SnapshotImporter.h" />
+    <ClInclude Include="..\..\libethereum\SnapshotStorage.h" />
+    <ClInclude Include="..\..\libethereum\State.h" />
+    <ClInclude Include="..\..\libethereum\StateImporter.h" />
+    <ClInclude Include="..\..\libethereum\Transaction.h" />
+    <ClInclude Include="..\..\libethereum\TransactionQueue.h" />
+    <ClInclude Include="..\..\libethereum\TransactionReceipt.h" />
+    <ClInclude Include="..\..\libethereum\ValidationSchemes.h" />
+    <ClInclude Include="..\..\libethereum\VerifiedBlock.h" />
+    <ClInclude Include="..\..\libethereum\WarpHostCapability.h" />
+    <ClInclude Include="..\..\libethereum\WarpPeerCapability.h" />
+  </ItemGroup>
+</Project>

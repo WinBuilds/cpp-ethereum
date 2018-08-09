@@ -39,7 +39,7 @@ using namespace dev::eth;
 using namespace p2p;
 namespace fs = boost::filesystem;
 
-static_assert(BOOST_VERSION >= 106400, "Wrong boost headers version");
+static_assert(BOOST_VERSION >= 106300, "Wrong boost headers version");
 
 namespace
 {

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\libweb3jsonrpc\AccountHolder.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\AdminEth.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\AdminNet.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\Debug.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\Eth.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\IpcServerBase.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\JsonHelper.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\Net.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\Personal.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\SessionManager.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\Test.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\Web3.cpp" />
+    <ClCompile Include="..\..\libweb3jsonrpc\WinPipeServer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\libweb3jsonrpc\AccountHolder.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\AdminEth.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\AdminEthFace.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\AdminNet.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\AdminNetFace.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\Debug.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\DebugFace.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\Eth.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\EthFace.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\IpcServer.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\IpcServerBase.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\JsonHelper.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\ModularServer.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\Net.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\NetFace.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\Personal.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\PersonalFace.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\SessionManager.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\Test.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\TestFace.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\Web3.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\Web3Face.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\WhisperFace.h" />
+    <ClInclude Include="..\..\libweb3jsonrpc\WinPipeServer.h" />
+  </ItemGroup>
+</Project>

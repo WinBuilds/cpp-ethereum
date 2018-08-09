@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\test\tools\fuzzTesting\BoostRandomCode.cpp" />
+    <ClCompile Include="..\..\test\tools\fuzzTesting\createRandomTest.cpp" />
+    <ClCompile Include="..\..\test\tools\fuzzTesting\fuzzHelper.cpp" />
+    <ClCompile Include="..\..\test\tools\jsontests\BlockChainTests.cpp" />
+    <ClCompile Include="..\..\test\tools\jsontests\StateTests.cpp" />
+    <ClCompile Include="..\..\test\tools\jsontests\TransactionTests.cpp" />
+    <ClCompile Include="..\..\test\tools\jsontests\vm.cpp" />
+    <ClCompile Include="..\..\test\tools\libtesteth\BlockChainHelper.cpp" />
+    <ClCompile Include="..\..\test\tools\libtesteth\boostTest.cpp" />
+    <ClCompile Include="..\..\test\tools\libtesteth\FillJsonFunctions.cpp" />
+    <ClCompile Include="..\..\test\tools\libtesteth\ImportTest.cpp" />
+    <ClCompile Include="..\..\test\tools\libtesteth\Options.cpp" />
+    <ClCompile Include="..\..\test\tools\libtesteth\Stats.cpp" />
+    <ClCompile Include="..\..\test\tools\libtesteth\TestHelper.cpp" />
+    <ClCompile Include="..\..\test\tools\libtesteth\TestOutputHelper.cpp" />
+    <ClCompile Include="..\..\test\tools\libtesteth\TestSuite.cpp" />
+    <ClCompile Include="..\..\test\tools\libtesteth\TestUtils.cpp" />
+    <ClCompile Include="..\..\test\tools\libtesteth\wast2wasm.cpp" />
+    <ClCompile Include="..\..\test\tools\libtestutils\BlockChainLoader.cpp" />
+    <ClCompile Include="..\..\test\tools\libtestutils\Common.cpp" />
+    <ClCompile Include="..\..\test\tools\libtestutils\FixedClient.cpp" />
+    <ClCompile Include="..\..\test\unittests\external-dependencies\boost.cpp" />
+    <ClCompile Include="..\..\test\unittests\libdevcore\CommonJS2.cpp" />
+    <ClCompile Include="..\..\test\unittests\libdevcore\core.cpp" />
+    <ClCompile Include="..\..\test\unittests\libdevcore\FixedHash.cpp" />
+    <ClCompile Include="..\..\test\unittests\libdevcore\RangeMask.cpp" />
+    <ClCompile Include="..\..\test\unittests\libdevcore\rlp.cpp" />
+    <ClCompile Include="..\..\test\unittests\libdevcrypto\AES.cpp" />
+    <ClCompile Include="..\..\test\unittests\libdevcrypto\crypto.cpp" />
+    <ClCompile Include="..\..\test\unittests\libdevcrypto\hexPrefix.cpp" />
+    <ClCompile Include="..\..\test\unittests\libdevcrypto\LibSnark.cpp" />
+    <ClCompile Include="..\..\test\unittests\libdevcrypto\MemTrie.cpp" />
+    <ClCompile Include="..\..\test\unittests\libdevcrypto\SecretStore.cpp" />
+    <ClCompile Include="..\..\test\unittests\libdevcrypto\trie.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethashseal\EthashTest.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethcore\commonjs1.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethcore\difficulty.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethcore\keymanager.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethcore\PrecompiledTest.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethcore\SealEngineTest.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethereum\Block.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethereum\BlockChain.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethereum\BlockChainInsert.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethereum\BlockQueue.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethereum\ClientBase.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethereum\ClientTest.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethereum\EthereumPeerTest.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethereum\ExtVMTest.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethereum\GasPricer.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethereum\Genesis.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethereum\SnapshotImporterTest.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethereum\StateUnitTests.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethereum\Transaction.cpp" />
+    <ClCompile Include="..\..\test\unittests\libethereum\TransactionQueue.cpp" />
+    <ClCompile Include="..\..\test\unittests\libevm\LegacyVMTest.cpp" />
+    <ClCompile Include="..\..\test\unittests\libp2p\capability.cpp" />
+    <ClCompile Include="..\..\test\unittests\libp2p\eip-8.cpp" />
+    <ClCompile Include="..\..\test\unittests\libp2p\net.cpp" />
+    <ClCompile Include="..\..\test\unittests\libp2p\peer.cpp" />
+    <ClCompile Include="..\..\test\unittests\libp2p\rlpx.cpp" />
+    <ClCompile Include="..\..\test\unittests\libtesteth\blockchainTest.cpp" />
+    <ClCompile Include="..\..\test\unittests\libtesteth\testHelperTest.cpp" />
+    <ClCompile Include="..\..\test\unittests\libweb3core\memorydb.cpp" />
+    <ClCompile Include="..\..\test\unittests\libweb3core\overlaydb.cpp" />
+    <ClCompile Include="..\..\test\unittests\libweb3jsonrpc\AccountHolder.cpp" />
+    <ClCompile Include="..\..\test\unittests\libweb3jsonrpc\Client.cpp" />
+    <ClCompile Include="..\..\test\unittests\libweb3jsonrpc\jsonrpc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\test\unittests\libweb3jsonrpc\JSON_test.sol" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\test\tools\fuzzTesting\BoostRandomCode.h" />
+    <ClInclude Include="..\..\test\tools\fuzzTesting\fuzzHelper.h" />
+    <ClInclude Include="..\..\test\tools\fuzzTesting\RandomCode.h" />
+    <ClInclude Include="..\..\test\tools\jsontests\BlockChainTests.h" />
+    <ClInclude Include="..\..\test\tools\jsontests\StateTests.h" />
+    <ClInclude Include="..\..\test\tools\jsontests\TransactionTests.h" />
+    <ClInclude Include="..\..\test\tools\jsontests\vm.h" />
+    <ClInclude Include="..\..\test\tools\libtesteth\BlockChainHelper.h" />
+    <ClInclude Include="..\..\test\tools\libtesteth\ImportTest.h" />
+    <ClInclude Include="..\..\test\tools\libtesteth\JsonSpiritHeaders.h" />
+    <ClInclude Include="..\..\test\tools\libtesteth\Options.h" />
+    <ClInclude Include="..\..\test\tools\libtesteth\Stats.h" />
+    <ClInclude Include="..\..\test\tools\libtesteth\TestHelper.h" />
+    <ClInclude Include="..\..\test\tools\libtesteth\TestOutputHelper.h" />
+    <ClInclude Include="..\..\test\tools\libtesteth\TestSuite.h" />
+    <ClInclude Include="..\..\test\tools\libtesteth\TestUtils.h" />
+    <ClInclude Include="..\..\test\tools\libtesteth\wast2wasm.h" />
+    <ClInclude Include="..\..\test\tools\libtestutils\BlockChainLoader.h" />
+    <ClInclude Include="..\..\test\tools\libtestutils\Common.h" />
+    <ClInclude Include="..\..\test\tools\libtestutils\FixedClient.h" />
+    <ClInclude Include="..\..\test\tools\libtestutils\TestLastBlockHashes.h" />
+    <ClInclude Include="..\..\test\unittests\libdevcrypto\MemTrie.h" />
+    <ClInclude Include="..\..\test\unittests\libweb3jsonrpc\WebThreeStubClient.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E4C8AB2C-9257-4F03-A26B-55AE11B95C2B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ethtest</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/lib/</OutDir>
+    <IntDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/lib/</OutDir>
+    <IntDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/lib/</OutDir>
+    <IntDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/lib/</OutDir>
+    <IntDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_WIN32_WINNT=0x0600;NOMINMAX;MINIUPNP_STATICLIB;ETH_FATDB;BOOST_ALL_NO_LIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT);$(SolutionDir);$(SolutionDir)..\..;$(SolutionDir)..\..\ethash\include;$(SolutionDir)..\..\evmc\include;$(SolutionDir)..\..\utils;$(OutDir)..\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4068;4996;4503;4267;4180;4290;4297;4244;4800</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;_WIN32_WINNT=0x0600;NOMINMAX;MINIUPNP_STATICLIB;ETH_FATDB;BOOST_ALL_NO_LIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT);$(SolutionDir);$(SolutionDir)..\..;$(SolutionDir)..\..\ethash\include;$(SolutionDir)..\..\evmc\include;$(SolutionDir)..\..\utils;$(OutDir)..\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4068;4996;4503;4267;4180;4290;4297;4244;4800</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_WIN32_WINNT=0x0600;NOMINMAX;MINIUPNP_STATICLIB;ETH_FATDB;BOOST_ALL_NO_LIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT);$(SolutionDir);$(SolutionDir)..\..;$(SolutionDir)..\..\ethash\include;$(SolutionDir)..\..\evmc\include;$(SolutionDir)..\..\utils;$(OutDir)..\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4068;4996;4503;4267;4180;4290;4297;4244;4800</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;_WIN32_WINNT=0x0600;NOMINMAX;MINIUPNP_STATICLIB;ETH_FATDB;BOOST_ALL_NO_LIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT);$(SolutionDir);$(SolutionDir)..\..;$(SolutionDir)..\..\ethash\include;$(SolutionDir)..\..\evmc\include;$(SolutionDir)..\..\utils;$(OutDir)..\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4068;4996;4503;4267;4180;4290;4297;4244;4800</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

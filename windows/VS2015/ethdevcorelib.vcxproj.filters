@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\libdevcore\Address.cpp" />
+    <ClCompile Include="..\..\libdevcore\Base64.cpp" />
+    <ClCompile Include="..\..\libdevcore\Common.cpp" />
+    <ClCompile Include="..\..\libdevcore\CommonData.cpp" />
+    <ClCompile Include="..\..\libdevcore\CommonIO.cpp" />
+    <ClCompile Include="..\..\libdevcore\CommonJS.cpp" />
+    <ClCompile Include="..\..\libdevcore\FileSystem.cpp" />
+    <ClCompile Include="..\..\libdevcore\FixedHash.cpp" />
+    <ClCompile Include="..\..\libdevcore\Guards.cpp" />
+    <ClCompile Include="..\..\libdevcore\JsonUtils.cpp" />
+    <ClCompile Include="..\..\libdevcore\LevelDB.cpp" />
+    <ClCompile Include="..\..\libdevcore\Log.cpp" />
+    <ClCompile Include="..\..\libdevcore\LoggingProgramOptions.cpp" />
+    <ClCompile Include="..\..\libdevcore\MemoryDB.cpp" />
+    <ClCompile Include="..\..\libdevcore\OverlayDB.cpp" />
+    <ClCompile Include="..\..\libdevcore\RLP.cpp" />
+    <ClCompile Include="..\..\libdevcore\SHA3.cpp" />
+    <ClCompile Include="..\..\libdevcore\TransientDirectory.cpp" />
+    <ClCompile Include="..\..\libdevcore\TrieCommon.cpp" />
+    <ClCompile Include="..\..\libdevcore\TrieHash.cpp" />
+    <ClCompile Include="..\..\libdevcore\Worker.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\libdevcore\Address.h" />
+    <ClInclude Include="..\..\libdevcore\Assertions.h" />
+    <ClInclude Include="..\..\libdevcore\Base64.h" />
+    <ClInclude Include="..\..\libdevcore\Common.h" />
+    <ClInclude Include="..\..\libdevcore\CommonData.h" />
+    <ClInclude Include="..\..\libdevcore\CommonIO.h" />
+    <ClInclude Include="..\..\libdevcore\CommonJS.h" />
+    <ClInclude Include="..\..\libdevcore\concurrent_queue.h" />
+    <ClInclude Include="..\..\libdevcore\db.h" />
+    <ClInclude Include="..\..\libdevcore\dbfwd.h" />
+    <ClInclude Include="..\..\libdevcore\DBImpl.h" />
+    <ClInclude Include="..\..\libdevcore\Exceptions.h" />
+    <ClInclude Include="..\..\libdevcore\FileSystem.h" />
+    <ClInclude Include="..\..\libdevcore\FixedHash.h" />
+    <ClInclude Include="..\..\libdevcore\Guards.h" />
+    <ClInclude Include="..\..\libdevcore\JsonUtils.h" />
+    <ClInclude Include="..\..\libdevcore\LevelDB.h" />
+    <ClInclude Include="..\..\libdevcore\Log.h" />
+    <ClInclude Include="..\..\libdevcore\LoggingProgramOptions.h" />
+    <ClInclude Include="..\..\libdevcore\MemoryDB.h" />
+    <ClInclude Include="..\..\libdevcore\OverlayDB.h" />
+    <ClInclude Include="..\..\libdevcore\RangeMask.h" />
+    <ClInclude Include="..\..\libdevcore\RLP.h" />
+    <ClInclude Include="..\..\libdevcore\SHA3.h" />
+    <ClInclude Include="..\..\libdevcore\Terminal.h" />
+    <ClInclude Include="..\..\libdevcore\TransientDirectory.h" />
+    <ClInclude Include="..\..\libdevcore\TrieCommon.h" />
+    <ClInclude Include="..\..\libdevcore\TrieDB.h" />
+    <ClInclude Include="..\..\libdevcore\TrieHash.h" />
+    <ClInclude Include="..\..\libdevcore\UndefMacros.h" />
+    <ClInclude Include="..\..\libdevcore\vector_ref.h" />
+    <ClInclude Include="..\..\libdevcore\Worker.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\libdevcore\CMakeLists.txt" />
+  </ItemGroup>
+</Project>

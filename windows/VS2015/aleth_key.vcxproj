@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\aleth-key\KeyAux.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\aleth-key\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="aleth_buildinfo.vcxproj">
+      <Project>{182ad3c6-a192-47bd-b181-17b5309e9d61}</Project>
+    </ProjectReference>
+    <ProjectReference Include="aleth_interpreter.vcxproj">
+      <Project>{cd8c71e1-5bb7-4e00-82d1-a93cc188de4d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="ethashlib.vcxproj">
+      <Project>{1a03feb1-bba5-44f7-8669-ed45c3c820e4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="ethashseal.vcxproj">
+      <Project>{19f4e772-e620-494a-9aae-3075fa8a6f8d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="ethcorelib.vcxproj">
+      <Project>{37024b1b-ea06-48b2-b5a9-e9b0abc6aa1c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="ethdevcorelib.vcxproj">
+      <Project>{9472a880-046c-405b-b4b7-c5ac5802aa19}</Project>
+    </ProjectReference>
+    <ProjectReference Include="ethdevcryptolib.vcxproj">
+      <Project>{6decc66e-3b92-468b-bfd5-eefc0aa9f7b8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="ethereumapi.vcxproj">
+      <Project>{db0255e4-c202-4f5d-9c2d-75532f0f32db}</Project>
+    </ProjectReference>
+    <ProjectReference Include="ethereumlib.vcxproj">
+      <Project>{43fdb4c2-b44d-44f1-97e7-e1de2b2c87b5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="ethp2plib.vcxproj">
+      <Project>{3fe3b39d-545e-4b19-b3dc-502bd1621457}</Project>
+    </ProjectReference>
+    <ProjectReference Include="ethvmlib.vcxproj">
+      <Project>{05caf87b-14ee-4f01-8d78-bd0aabbba51f}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{271C5D33-A3F7-4C11-ACC9-D5F082EDCA79}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>aleth_key</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+    <OutDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/bin/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+    <OutDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/bin/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/bin/</OutDir>
+    <IntDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/bin/</OutDir>
+    <IntDir>$(SolutionDir)../../../../build_msvc14_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WIN32_WINNT=0x0600;NOMINMAX;MINIUPNP_STATICLIB;ETH_FATDB;BOOST_ALL_NO_LIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT);$(SolutionDir);$(SolutionDir)..\..;$(SolutionDir)..\..\ethash\include;$(SolutionDir)..\..\evmc\include;$(SolutionDir)..\..\utils;$(OutDir)..\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4068;4996;4503;4267;4180;4290;4297;4244;4800</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>cryptlib.lib;scryptlib.lib;secp256k1lib.lib;jsoncpplib.lib;fflib.lib;gmplib.lib;leveldblib.lib;libboost_filesystem-vc140-mt-sgd-1_63.lib;libboost_program_options-vc140-mt-sgd-1_63.lib;libboost_log_setup-vc140-mt-sgd-1_63.lib;libboost_log-vc140-mt-sgd-1_63.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(BOOST_ROOT)\stage\$(Platform)\static-runtime\lib\$(Configuration);$(OutDir)..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_WIN32_WINNT=0x0600;NOMINMAX;MINIUPNP_STATICLIB;ETH_FATDB;BOOST_ALL_NO_LIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT);$(SolutionDir);$(SolutionDir)..\..;$(SolutionDir)..\..\ethash\include;$(SolutionDir)..\..\evmc\include;$(SolutionDir)..\..\utils;$(OutDir)..\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4068;4996;4503;4267;4180;4290;4297;4244;4800</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>cryptlib.lib;scryptlib.lib;secp256k1lib.lib;jsoncpplib.lib;fflib.lib;gmplib.lib;leveldblib.lib;libboost_filesystem-vc140-mt-sgd-1_63.lib;libboost_program_options-vc140-mt-sgd-1_63.lib;libboost_log_setup-vc140-mt-sgd-1_63.lib;libboost_log-vc140-mt-sgd-1_63.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(BOOST_ROOT)\stage\$(Platform)\static-runtime\lib\$(Configuration);$(OutDir)..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_WIN32_WINNT=0x0600;NOMINMAX;MINIUPNP_STATICLIB;ETH_FATDB;BOOST_ALL_NO_LIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT);$(SolutionDir);$(SolutionDir)..\..;$(SolutionDir)..\..\ethash\include;$(SolutionDir)..\..\evmc\include;$(SolutionDir)..\..\utils;$(OutDir)..\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4068;4996;4503;4267;4180;4290;4297;4244;4800</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>cryptlib.lib;scryptlib.lib;secp256k1lib.lib;jsoncpplib.lib;fflib.lib;gmplib.lib;leveldblib.lib;libboost_filesystem-vc140-mt-sgd-1_63.lib;libboost_program_options-vc140-mt-sgd-1_63.lib;libboost_log_setup-vc140-mt-sgd-1_63.lib;libboost_log-vc140-mt-sgd-1_63.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(BOOST_ROOT)\stage\$(Platform)\static-runtime\lib\$(Configuration);$(OutDir)..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_WIN32_WINNT=0x0600;NOMINMAX;MINIUPNP_STATICLIB;ETH_FATDB;BOOST_ALL_NO_LIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT);$(SolutionDir);$(SolutionDir)..\..;$(SolutionDir)..\..\ethash\include;$(SolutionDir)..\..\evmc\include;$(SolutionDir)..\..\utils;$(OutDir)..\include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4068;4996;4503;4267;4180;4290;4297;4244;4800</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>cryptlib.lib;scryptlib.lib;secp256k1lib.lib;jsoncpplib.lib;fflib.lib;gmplib.lib;leveldblib.lib;libboost_filesystem-vc140-mt-sgd-1_63.lib;libboost_program_options-vc140-mt-sgd-1_63.lib;libboost_log_setup-vc140-mt-sgd-1_63.lib;libboost_log-vc140-mt-sgd-1_63.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(BOOST_ROOT)\stage\$(Platform)\static-runtime\lib\$(Configuration);$(OutDir)..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

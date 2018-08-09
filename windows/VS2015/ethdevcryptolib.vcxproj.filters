@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\libdevcrypto\AES.cpp" />
+    <ClCompile Include="..\..\libdevcrypto\Common.cpp" />
+    <ClCompile Include="..\..\libdevcrypto\CryptoPP.cpp" />
+    <ClCompile Include="..\..\libdevcrypto\Hash.cpp" />
+    <ClCompile Include="..\..\libdevcrypto\LibSnark.cpp" />
+    <ClCompile Include="..\..\libdevcrypto\SecretStore.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\libdevcrypto\AES.h" />
+    <ClInclude Include="..\..\libdevcrypto\Common.h" />
+    <ClInclude Include="..\..\libdevcrypto\CryptoPP.h" />
+    <ClInclude Include="..\..\libdevcrypto\Exceptions.h" />
+    <ClInclude Include="..\..\libdevcrypto\Hash.h" />
+    <ClInclude Include="..\..\libdevcrypto\LibSnark.h" />
+    <ClInclude Include="..\..\libdevcrypto\SecretStore.h" />
+  </ItemGroup>
+</Project>

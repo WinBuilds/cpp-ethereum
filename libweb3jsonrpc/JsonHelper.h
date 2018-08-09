@@ -21,7 +21,7 @@
  */
 #pragma once
 
-#include <json/json.h>
+#include <jsoncpp/json.h>
 #include <libp2p/Common.h>
 #include <libethcore/Common.h>
 #include <libethcore/BlockHeader.h>

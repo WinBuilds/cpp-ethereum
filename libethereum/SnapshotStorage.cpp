@@ -19,7 +19,7 @@
 #include <libdevcore/CommonIO.h>
 #include <libdevcore/SHA3.h>
 
-#include <snappy.h>
+#include <snappy/snappy.h>
 
 namespace fs = boost::filesystem;
 

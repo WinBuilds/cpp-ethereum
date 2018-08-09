@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\libethcore\BasicAuthority.cpp" />
+    <ClCompile Include="..\..\libethcore\BlockHeader.cpp" />
+    <ClCompile Include="..\..\libethcore\ChainOperationParams.cpp" />
+    <ClCompile Include="..\..\libethcore\Common.cpp" />
+    <ClCompile Include="..\..\libethcore\CommonJS.cpp" />
+    <ClCompile Include="..\..\libethcore\KeyManager.cpp" />
+    <ClCompile Include="..\..\libethcore\LogEntry.cpp" />
+    <ClCompile Include="..\..\libethcore\Precompiled.cpp" />
+    <ClCompile Include="..\..\libethcore\SealEngine.cpp" />
+    <ClCompile Include="..\..\libethcore\TransactionBase.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\libethcore\BasicAuthority.h" />
+    <ClInclude Include="..\..\libethcore\BlockHeader.h" />
+    <ClInclude Include="..\..\libethcore\ChainOperationParams.h" />
+    <ClInclude Include="..\..\libethcore\Common.h" />
+    <ClInclude Include="..\..\libethcore\CommonJS.h" />
+    <ClInclude Include="..\..\libethcore\EVMSchedule.h" />
+    <ClInclude Include="..\..\libethcore\Exceptions.h" />
+    <ClInclude Include="..\..\libethcore\KeyManager.h" />
+    <ClInclude Include="..\..\libethcore\LogEntry.h" />
+    <ClInclude Include="..\..\libethcore\Precompiled.h" />
+    <ClInclude Include="..\..\libethcore\SealEngine.h" />
+    <ClInclude Include="..\..\libethcore\TransactionBase.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\libethcore\CMakeLists.txt" />
+  </ItemGroup>
+</Project>

@@ -21,7 +21,7 @@
 
 #include <functional>
 #include <string>
-#include <json/json.h>
+#include <jsoncpp/json.h>
 #include <libdevcore/TransientDirectory.h>
 #include <libethereum/BlockChain.h>
 #include <libethereum/ClientBase.h>

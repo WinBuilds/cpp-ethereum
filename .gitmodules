@@ -8,6 +8,4 @@
 [submodule "hera"]
 	path = hera
 	url = https://github.com/ewasm/hera
-[submodule "evmc"]
-	path = evmc
-	url = https://github.com/ethereum/evmc
+

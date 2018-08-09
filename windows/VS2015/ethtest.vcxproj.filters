@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ethtestlib">
+      <UniqueIdentifier>{9ee59d4b-ebf6-46f5-8f86-a0f3a1329a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unittests">
+      <UniqueIdentifier>{3d5c49a0-9ae4-4192-8c0a-2dd32bddcd5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unittests\web3jsonrpc">
+      <UniqueIdentifier>{baaee5d9-5ed2-4a73-88bb-5f8bbf31caeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unittests\ethereum">
+      <UniqueIdentifier>{bbcdca02-a6a1-4387-b83a-feed370341c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unittests\devcrypto">
+      <UniqueIdentifier>{20cdc940-bba0-408e-95b1-7bb37cecebfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsontests">
+      <UniqueIdentifier>{a43f1680-615b-4829-a9ca-b42995eb6445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fuzztesting">
+      <UniqueIdentifier>{2234b1bd-3bfd-4e1c-b70f-83a180e8733a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unittests\p2p">
+      <UniqueIdentifier>{6bce8c8a-22cc-419b-96b6-b94e1f3a4962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unittests\ethcore">
+      <UniqueIdentifier>{51b4c2e5-6c8b-410d-8260-476011af8291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unittests\devcore">
+      <UniqueIdentifier>{971610b5-8645-4d07-ba33-3a496b562522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unittests\hashseal">
+      <UniqueIdentifier>{90ec033b-53ae-4d02-8f7d-527b3a850968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unittests\evm">
+      <UniqueIdentifier>{fb7b905f-52e0-414e-b751-50f8f588c266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unittests\web3core">
+      <UniqueIdentifier>{13590b54-d48e-42c3-bcf5-219d15cfbe70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unittests\ethtest">
+      <UniqueIdentifier>{4aff2633-9aa3-47e0-a4f7-168efbdb5172}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\test\unittests\libweb3jsonrpc\AccountHolder.cpp">
+      <Filter>unittests\web3jsonrpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libweb3jsonrpc\Client.cpp">
+      <Filter>unittests\web3jsonrpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libweb3jsonrpc\jsonrpc.cpp">
+      <Filter>unittests\web3jsonrpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libdevcrypto\AES.cpp">
+      <Filter>unittests\devcrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libdevcrypto\crypto.cpp">
+      <Filter>unittests\devcrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libdevcrypto\hexPrefix.cpp">
+      <Filter>unittests\devcrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libdevcrypto\LibSnark.cpp">
+      <Filter>unittests\devcrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libdevcrypto\MemTrie.cpp">
+      <Filter>unittests\devcrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libdevcrypto\SecretStore.cpp">
+      <Filter>unittests\devcrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libdevcrypto\trie.cpp">
+      <Filter>unittests\devcrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethereum\Block.cpp">
+      <Filter>unittests\ethereum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethereum\BlockChain.cpp">
+      <Filter>unittests\ethereum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethereum\BlockChainInsert.cpp">
+      <Filter>unittests\ethereum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethereum\BlockQueue.cpp">
+      <Filter>unittests\ethereum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethereum\ClientBase.cpp">
+      <Filter>unittests\ethereum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethereum\ClientTest.cpp">
+      <Filter>unittests\ethereum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethereum\EthereumPeerTest.cpp">
+      <Filter>unittests\ethereum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethereum\ExtVMTest.cpp">
+      <Filter>unittests\ethereum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethereum\GasPricer.cpp">
+      <Filter>unittests\ethereum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethereum\Genesis.cpp">
+      <Filter>unittests\ethereum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethereum\SnapshotImporterTest.cpp">
+      <Filter>unittests\ethereum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethereum\StateUnitTests.cpp">
+      <Filter>unittests\ethereum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethereum\Transaction.cpp">
+      <Filter>unittests\ethereum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethereum\TransactionQueue.cpp">
+      <Filter>unittests\ethereum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\libtesteth\BlockChainHelper.cpp">
+      <Filter>ethtestlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\libtesteth\boostTest.cpp">
+      <Filter>ethtestlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\libtesteth\FillJsonFunctions.cpp">
+      <Filter>ethtestlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\libtesteth\ImportTest.cpp">
+      <Filter>ethtestlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\libtesteth\Options.cpp">
+      <Filter>ethtestlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\libtesteth\Stats.cpp">
+      <Filter>ethtestlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\libtesteth\TestHelper.cpp">
+      <Filter>ethtestlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\libtesteth\TestOutputHelper.cpp">
+      <Filter>ethtestlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\libtesteth\TestSuite.cpp">
+      <Filter>ethtestlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\libtesteth\TestUtils.cpp">
+      <Filter>ethtestlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\libtesteth\wast2wasm.cpp">
+      <Filter>ethtestlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\jsontests\BlockChainTests.cpp">
+      <Filter>jsontests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\jsontests\StateTests.cpp">
+      <Filter>jsontests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\jsontests\TransactionTests.cpp">
+      <Filter>jsontests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\jsontests\vm.cpp">
+      <Filter>jsontests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\external-dependencies\boost.cpp">
+      <Filter>ethtestlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\fuzzTesting\BoostRandomCode.cpp">
+      <Filter>fuzztesting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\fuzzTesting\createRandomTest.cpp">
+      <Filter>fuzztesting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\fuzzTesting\fuzzHelper.cpp">
+      <Filter>fuzztesting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libp2p\capability.cpp">
+      <Filter>unittests\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libp2p\eip-8.cpp">
+      <Filter>unittests\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libp2p\net.cpp">
+      <Filter>unittests\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libp2p\peer.cpp">
+      <Filter>unittests\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libp2p\rlpx.cpp">
+      <Filter>unittests\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\libtestutils\BlockChainLoader.cpp">
+      <Filter>ethtestlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\libtestutils\Common.cpp">
+      <Filter>ethtestlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\tools\libtestutils\FixedClient.cpp">
+      <Filter>ethtestlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethcore\difficulty.cpp">
+      <Filter>unittests\ethcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethcore\keymanager.cpp">
+      <Filter>unittests\ethcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethcore\PrecompiledTest.cpp">
+      <Filter>unittests\ethcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethcore\SealEngineTest.cpp">
+      <Filter>unittests\ethcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libdevcore\core.cpp">
+      <Filter>unittests\devcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libdevcore\FixedHash.cpp">
+      <Filter>unittests\devcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libdevcore\RangeMask.cpp">
+      <Filter>unittests\devcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libdevcore\rlp.cpp">
+      <Filter>unittests\devcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethashseal\EthashTest.cpp">
+      <Filter>unittests\hashseal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libevm\LegacyVMTest.cpp">
+      <Filter>unittests\evm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libweb3core\memorydb.cpp">
+      <Filter>unittests\web3core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libweb3core\overlaydb.cpp">
+      <Filter>unittests\web3core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libtesteth\blockchainTest.cpp">
+      <Filter>unittests\ethtest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libtesteth\testHelperTest.cpp">
+      <Filter>unittests\ethtest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libethcore\commonjs1.cpp">
+      <Filter>unittests\ethcore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\unittests\libdevcore\CommonJS2.cpp">
+      <Filter>unittests\devcore</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\test\unittests\libweb3jsonrpc\JSON_test.sol">
+      <Filter>unittests\web3jsonrpc</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\test\unittests\libweb3jsonrpc\WebThreeStubClient.h">
+      <Filter>unittests\web3jsonrpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\unittests\libdevcrypto\MemTrie.h">
+      <Filter>unittests\devcrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\libtesteth\BlockChainHelper.h">
+      <Filter>ethtestlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\libtesteth\ImportTest.h">
+      <Filter>ethtestlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\libtesteth\JsonSpiritHeaders.h">
+      <Filter>ethtestlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\libtesteth\Options.h">
+      <Filter>ethtestlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\libtesteth\Stats.h">
+      <Filter>ethtestlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\libtesteth\TestHelper.h">
+      <Filter>ethtestlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\libtesteth\TestOutputHelper.h">
+      <Filter>ethtestlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\libtesteth\TestSuite.h">
+      <Filter>ethtestlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\libtesteth\TestUtils.h">
+      <Filter>ethtestlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\libtesteth\wast2wasm.h">
+      <Filter>ethtestlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\jsontests\BlockChainTests.h">
+      <Filter>jsontests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\jsontests\StateTests.h">
+      <Filter>jsontests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\jsontests\TransactionTests.h">
+      <Filter>jsontests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\jsontests\vm.h">
+      <Filter>jsontests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\fuzzTesting\BoostRandomCode.h">
+      <Filter>fuzztesting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\fuzzTesting\fuzzHelper.h">
+      <Filter>fuzztesting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\fuzzTesting\RandomCode.h">
+      <Filter>fuzztesting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\libtestutils\BlockChainLoader.h">
+      <Filter>ethtestlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\libtestutils\Common.h">
+      <Filter>ethtestlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\libtestutils\FixedClient.h">
+      <Filter>ethtestlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\tools\libtestutils\TestLastBlockHashes.h">
+      <Filter>ethtestlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

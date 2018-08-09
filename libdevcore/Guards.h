@@ -25,11 +25,15 @@
 #include <condition_variable>
 #include <atomic>
 #pragma warning(push)
+#if defined(__GCC__)
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wunused-parameter"
+#endif
 #include <boost/thread.hpp>
 #pragma warning(pop)
+#if defined(__GCC__)
 #pragma GCC diagnostic pop
+#endif
 
 namespace dev
 {
