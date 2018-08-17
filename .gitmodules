@@ -1,8 +1,8 @@
 [submodule "evmjit"]
 	path = evmjit
-	url = https://github.com/ethereum/evmjit
+	url = https://github.com/winbuilds/evmjit
 	branch = develop
 [submodule "hera"]
 	path = hera
-	url = https://github.com/ewasm/hera
+	url = https://github.com/winbuilds/hera
 

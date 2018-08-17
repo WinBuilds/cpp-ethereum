@@ -19,7 +19,7 @@
  * @date 2015
  */
 
-#include <json/writer.h>
+#include <jsoncpp/writer.h>
 #include <libethashseal/Ethash.h>
 #include <libethereum/BlockChain.h>
 #include "BlockChainLoader.h"

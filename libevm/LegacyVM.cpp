@@ -251,7 +251,7 @@ void LegacyVM::interpretCases()
 
 			uint64_t b = (uint64_t)m_SP[0];
 			uint64_t s = (uint64_t)m_SP[1];
-			m_output = owning_bytes_ref{std::move(m_mem), b, s};
+			m_output = owning_bytes_ref{std::move(m_mem), static_cast<size_t>(b), static_cast<size_t>(s)};
 			m_bounce = 0;
 		}
 		BREAK
@@ -269,7 +269,7 @@ void LegacyVM::interpretCases()
 
 			uint64_t b = (uint64_t)m_SP[0];
 			uint64_t s = (uint64_t)m_SP[1];
-			owning_bytes_ref output{move(m_mem), b, s};
+			owning_bytes_ref output{move(m_mem), static_cast<size_t>(b), static_cast<size_t>(s)};
 			throwRevertInstruction(move(output));
 		}
 		BREAK;

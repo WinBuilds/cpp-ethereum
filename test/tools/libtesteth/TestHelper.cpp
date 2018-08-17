@@ -29,7 +29,7 @@
 
 #include <aleth-buildinfo.h>
 
-#include <yaml-cpp/yaml.h>
+#include <yamlcpp/yaml.h>
 #include <boost/algorithm/string/trim.hpp>
 #include <boost/filesystem/path.hpp>
 #include <set>
